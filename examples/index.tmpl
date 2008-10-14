@@ -1,0 +1,12 @@
+{
+    plugins => [ qw/FormToDatabase/ ],
+    plug_form_to_database => {
+        go_field => 'd|foo',
+        dsn     => "DBI:mysql:database=test;host=localhost",
+        user    => 'test', # user,
+        pass    => 'test', # pass
+        opt     => { RaiseError => 1, AutoCommit => 0 },
+        table   => 'form',
+        values   => [ qw/one two/ ],
+    },
+}
