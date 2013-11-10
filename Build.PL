@@ -13,7 +13,9 @@ my $builder = Module::Build->new(
     requires => {
         'App::ZofCMS' => 0.0105,
         'DBI'         => 1.602,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-FormToDatabase-*' ],
     create_makefile_pl => 'traditional',
 );

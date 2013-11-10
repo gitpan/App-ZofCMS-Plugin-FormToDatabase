@@ -1,8 +1,8 @@
 App-ZofCMS-Plugin-FormToDatabase
 
-The module is a simple drop in to stick query into database. The module does not provide any
-parameter checking and is very basic. For anything more advanced check out
-L<App::ZofCMS::Plugin::DBI>
+The module is a simple drop in to stick query into database.
+The module does not provide any parameter checking and is very basic.
+For anything more advanced check out L<App::ZofCMS::Plugin::DBI>
 
 INSTALLATION
 

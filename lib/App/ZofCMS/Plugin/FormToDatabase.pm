@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::FormToDatabase;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use DBI;
 
@@ -53,6 +53,8 @@ sub process {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
